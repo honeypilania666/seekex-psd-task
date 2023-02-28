@@ -1,0 +1,107 @@
+/* header section css */
+
+.header {
+  position: absolute;
+  width: 1366px;
+  height: 48px;
+  left: 60px;
+  top: 0px;
+
+  background: #1f1f1f;
+}
+#title {
+  position: absolute;
+  width: 229px;
+  top:15.5px;
+  height: 17px;
+  left: calc(50% - 229px / 2 - 445.5px);
+  
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #ffffff;
+}
+#contact {
+  position: absolute;
+  width: 138px;
+  height: 17px;
+  left: calc(50% - 138px / 2 + 475px);
+  top: 15.5px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #ffffff;
+}
+#contact .icon {
+  position: absolute;
+  left: -20px;
+}
+
+/* navbar sytling */
+.navbar {
+  position: absolute;
+  width: 1366px;
+  height: 88px;
+  left: 60px;
+  top: 48px;
+
+  background: #ffffff;
+  box-shadow: 0px 8px 21px rgba(0, 0, 0, 0.16);
+}
+.menus {
+  display: inline-flex;
+}
+#menu {
+  position: absolute;
+  left: 9.22%;
+  right: 89.46%;
+  top: 30%;
+  bottom: 98.92%;
+  background: #770015;
+}
+#logo {
+  position: absolute;
+  width: 76px;
+  height: 21px;
+  left: 645px;
+  top: 35.5px;
+
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+
+  /* Primary Color_1 */
+
+  color: #1c1c1c;
+}
+.social-icons {
+  display: inline-flex;
+  position: absolute;
+  right: 10%;
+}
+.social-icons i {
+  justify-content: space-between;
+  margin: 0px 10px 0px 0px;
+  cursor: pointer;
+}
+.banner {
+  position: absolute;
+  width: 1366px;
+  height: 632px;
+  left: 60px;
+  top: 136px;
+  background: url(./assets/header_img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
